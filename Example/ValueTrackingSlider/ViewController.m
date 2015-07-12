@@ -28,6 +28,7 @@
     
     // customize slider 1
     self.slider1.maximumValue = 255.0;
+    self.slider1.barHeight=6;
     self.slider1.popUpViewCornerRadius = 0.0;
     [self.slider1 setMaxFractionDigitsDisplayed:0];
     self.slider1.popUpViewColor = [UIColor colorWithHue:0.55 saturation:0.8 brightness:0.9 alpha:0.7];
